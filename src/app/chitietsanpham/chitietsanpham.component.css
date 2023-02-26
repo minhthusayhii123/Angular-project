@@ -1,0 +1,84 @@
+.h3 {
+  font-weight: 600;
+}
+
+.products,
+.delivery,
+.payment,
+.summary {
+    border: unset;
+    box-shadow: 0px 0px 8px #00000058;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.products .card-header,
+.summary .card-header {
+    border: unset;
+    background-color: var(--color-4);
+    color: var(--color-1);
+}
+
+.summary .order button {
+    background-color: var(--color-2);
+    font-weight: 600;
+    border: unset;
+    transition: 0.25s;
+}
+
+.summary .order button:hover,
+.summary .order button:focus {
+    box-shadow: unset;
+    background-color: var(--color-4);
+    color: var(--color-1);
+}
+
+.modal-content {
+  border: none;
+  border-radius: 8px;
+}
+
+.modal-content .modal-header {
+  border: unset;
+  color: #000;
+}
+
+.modal-content .modal-header button {
+  background-color: #fff;
+  color: #000;
+}
+
+.modal-content .modal-header button:focus,
+.modal-content .modal-header button:hover {
+  background-color: #fff;
+}
+
+.modal .modal-body {
+  color: #000;
+}
+
+.modal .modal-body .form-outline label {
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.modal .modal-body .form-outline .form-control {
+  background-color: #f3f3f4;
+  border: unset;
+  font-weight: 500;
+}
+
+.modal .modal-body .form-outline .form-control:focus {
+  box-shadow: unset;
+}
+
+.modal .modal-footer {
+  border: unset;
+}
+
+.modal .modal-footer button {
+  background-color: #85586f;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}

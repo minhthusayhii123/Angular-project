@@ -1,0 +1,42 @@
+* Content */ .card {
+  border: unset;
+  margin-bottom: 20px;
+}
+
+.card-header {
+  background-color: #fff;
+  border: unset;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.card-body {
+  background-color: var(--color-1);
+  border-radius: 8px;
+}
+
+.card-body .form-outline .form-control,
+.card-body .form-outline .form-select {
+  border: unset;
+}
+
+.summary {
+  min-height: 100%;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+.summary .card-body .list-group {
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.summary .card-body .list-group-item {
+  background-color: var(--color-1);
+}
+
+.summary .order button {
+  background-color: var(--color-4);
+  border: unset;
+  font-weight: 600;
+  color: #fff;
+}

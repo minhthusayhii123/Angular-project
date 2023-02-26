@@ -1,0 +1,59 @@
+/* Sign in */
+.sign-in .h3 {
+  color: var(--color-5);
+  font-size: 2.1rem;
+  letter-spacing: 1.2px;
+  font-weight: 600;
+}
+
+
+.sign-in .form-outline input:focus,
+.sign-in .form-outline input:hover {
+  box-shadow: unset;
+}
+
+
+.sign-in .form-check .form-check-input:focus,
+.sign-in .form-check .form-check-input:hover {
+  box-shadow: unset;
+  cursor: pointer;
+}
+
+.sign-in .form-check .form-check-input:checked {
+  background-color: var(--color-7);
+}
+
+.sign-in .forgot-pass {
+  text-decoration: none;
+  color: #e95e5e;
+  text-decoration: underline;
+}
+
+.sign-in .submit {
+  background-color: var(--color-5);
+  color: var(--color-8);
+  width: 100%;
+  font-weight: 600;
+}
+
+.sign-in .soccial .btn {
+  font-weight: 500;
+  color: var(--color-8);
+}
+
+.sign-in .soccial .btn i {
+  color: var(--color-8);
+}
+
+.sign-up a {
+  background-color: #9f6d4c;
+  color: #000;
+  width: 100%;
+  transition: 0.25s;
+  font-weight: 500;
+}
+
+.sign-up a:hover {
+  background-color: #7d5134;
+  color: #ccc;
+}
